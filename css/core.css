@@ -1,4 +1,72 @@
+@font-face
+{
+	font-family: 'Lato-Bold';
+	src: url('../fonts/Lato-Bold.ttf');
+}
+
+@font-face
+{
+	font-family: 'Lato-Regular';
+	src: url('../fonts/Lato-Regular.ttf');
+}
+
 body
 {
-	
+	font-family: "Lato-Regular", sans-serif;
+}
+
+#header
+{
+	min-height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	background-image: url(../img/background.jpg);
+}
+
+/*===============NAVBAR===========*/
+#nav-menu-container
+{
+	float: left;
+	width: 100%;
+	background-color: #60372f;
+  overflow: hidden;
+  position: relative;
+}
+
+#nav-menu-container .nav-menu
+{
+	clear: left;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	text-align: center;
+
+}
+
+#nav-menu-container .nav-menu .nav-item
+{
+	display: block;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+}
+
+#nav-menu-container .nav-menu .nav-item 
+.navbar-link
+{
+	display: block;
+	margin: 0 0 0 1px;
+	padding: 32px 20px 32px;
+	color: white;
+	text-decoration: none;
+	font-size: 12.5px;
+	text-transform: uppercase;
 }
