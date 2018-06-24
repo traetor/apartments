@@ -15,13 +15,15 @@ body
 	font-family: "Lato-Bold", sans-serif;
 }
 
+/*===============HEADER===============*/
 #header
 {
 	min-height: 100vh;
 	position: relative;
 }
 
-.image {
+.image 
+{
   min-height: 100vh;
   background-position: center center;
 	background-size: cover;
@@ -76,20 +78,8 @@ body
 	text-transform: uppercase;
 }
 
-/*============SWITCH-BUTTONS==========*/
-/*.switch-buttons
+#nav-menu-container .nav-menu .nav-item 
+.navbar-link:hover
 {
-	position: absolute;
-	bottom: 50px;
-	font-size: 60px;
-	color: white;
+	color: green;
 }
-.left
-{
-	left: 50px;
-}
-
-.right
-{
-	right: 50px;
-}*/
