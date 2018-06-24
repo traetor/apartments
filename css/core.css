@@ -12,7 +12,7 @@
 
 body
 {
-	font-family: "Lato-Regular", sans-serif;
+	font-family: "Lato-Bold", sans-serif;
 }
 
 #header
@@ -33,6 +33,7 @@ body
 	background-color: #60372f;
   overflow: hidden;
   position: relative;
+  font-family: "Lato-Regular", sans-serif;
 }
 
 #nav-menu-container .nav-menu
@@ -69,4 +70,22 @@ body
 	text-decoration: none;
 	font-size: 12.5px;
 	text-transform: uppercase;
+}
+
+/*=================switch-buttons=========*/
+.switch-buttons
+{
+	position: absolute;
+	bottom: 50px;
+	font-size: 60px;
+	color: white;
+}
+.left
+{
+	left: 50px;
+}
+
+.right
+{
+	right: 50px;
 }
