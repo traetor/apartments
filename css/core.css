@@ -18,21 +18,25 @@ body
 #header
 {
 	min-height: 100vh;
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
 	position: relative;
-	background-image: url(../img/background.jpg);
 }
 
-/*===============NAVBAR===========*/
+.image {
+  min-height: 100vh;
+  background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*===============NAVBAR===============*/
 #nav-menu-container
 {
 	float: left;
+	top: 0;
 	width: 100%;
 	background-color: #60372f;
   overflow: hidden;
-  position: relative;
+  position: absolute;
   font-family: "Lato-Regular", sans-serif;
 }
 
@@ -72,8 +76,8 @@ body
 	text-transform: uppercase;
 }
 
-/*=================switch-buttons=========*/
-.switch-buttons
+/*============SWITCH-BUTTONS==========*/
+/*.switch-buttons
 {
 	position: absolute;
 	bottom: 50px;
@@ -88,4 +92,4 @@ body
 .right
 {
 	right: 50px;
-}
+}*/

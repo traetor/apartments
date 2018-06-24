@@ -10,7 +10,39 @@
 </head>
 <body>
 	<header id="header">
-		<nav id="nav-menu-container">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+    
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="image" style="background-image: url('img/background.jpg')"></div>
+            <div class="carousel-caption">Bears</div>
+        </div>
+        <div class="item">
+            <div class="image" style="background-image: url('img/background2.jpg')"></div>
+            <div class="carousel-caption">Birds</div>
+        </div>
+        <div class="item">
+            <div class="image" style="background-image: url('img/background3.jpg')"></div>
+            <div class="carousel-caption">Butterfly</div>
+        </div>
+    </div>
+    
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+	<nav id="nav-menu-container">
 			<ul class="nav-menu">
 				<li class="nav-item"><a class="navbar-link" href="#">Inwestycja</a></li>
 				<li class="nav-item"><a class="navbar-link" href="#">Dostępność</a></li>
@@ -18,8 +50,6 @@
 				<li class="nav-item"><a class="navbar-link" href="#">Kontakt</a></li>
 			</ul>
 		</nav>
-		<a href="" class="icon-left-open left switch-buttons"></a>
-		<a href="" class="icon-right-open right switch-buttons"></a>
 	</header>
 	<section id="availability">
 		<div class="container"></div>
@@ -36,7 +66,8 @@
 			</div>
 		</div>
 	</section>
-	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/core.js"></script>
 </body>
 </html> 	
