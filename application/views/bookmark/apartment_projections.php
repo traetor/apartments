@@ -1,9 +1,9 @@
 		<div class="container" style="padding-right: 0px; padding-left: 0px;">
 			<div class="row project-position">
-				<div class="col-md-6">
+				<div class="col-lg-6">
 					<img src="<?php echo base_url(); ?>assets/img/plan.png">
 				</div>
-				<div class="col-md-6">
+				<div class="col-lg-6">
 					<div class="apart-box apart-left">
 						<p class="apart-text"> Parter lewy</p>
 					</div><div class="apart-box">
