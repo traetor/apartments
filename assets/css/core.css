@@ -145,7 +145,7 @@ select, option
 
 .btn-submit
 {
-	width: 327px;
+	width: 358px;
 	background-color: #54555a;
 	color: white;
 	text-transform: uppercase;
@@ -224,6 +224,13 @@ select, option
 	padding-left: 30px;
 }
 
+.text-shorts
+{
+	width: 50px;
+	padding-left: 50px;
+}
+
+
 .text-long
 {
 	width: 100px;
@@ -233,6 +240,17 @@ select, option
 {
 	padding-left: 20px;
 }
+
+.text-exts
+{
+	padding-left: 50px;
+}
+
+.text-extes
+{
+	padding-left: 60px;
+}
+
 
 .icon-open
 {
@@ -257,6 +275,11 @@ select, option
 .icon-last
 {
 	padding-left: 25px;
+}
+
+.icon-lasts
+{
+	padding-left: 45px;
 }
 
 .ext-tab .ext-box-last a
@@ -312,11 +335,63 @@ pag a
 	background-image: url(../img/bg.jpg);
 	margin-top: 50px;
 	position: relative;
+	font-family: "Lato-Bold", sans-serif;
+	font-size: 17px;
+	color: white;
 }
 
+.project-position
+{
+	margin-top: 100px;
+}
 
+.apart-box
+{
+	display: inline-block;
+	position: relative;
+	height: 35px;
+	width: 270px;
+	background-color: #54555a;
+	margin-bottom: 30px;
+}
 
+.apart-left
+{
+	margin-right: 30px;
+}
 
+.apart-text
+{
+	text-align: center;
+	line-height: 35px;
+	text-transform: uppercase;
+}
+
+.apart-legend
+{
+	display: inline-block;
+	position: relative;
+	height: 380px;
+	width: 570px;
+	background-color: #56342c;
+	margin-top: 140px;
+	padding: 35px;
+}
+
+.legend-left
+{
+	display: inline-block;
+	position: absolute;
+	width: 350px;
+}
+
+.legend-right
+{
+	display: inline-block;
+	position: absolute;
+	width: 100px;
+	right: 0;
+}
 
 @media screen and (min-width:0\0)
 {

@@ -1,4 +1,4 @@
-		<div class="container">
+		<div class="container" style="padding-right: 0px; padding-left: 0px;">
 			<form action="">
 				<div class="notIE">
 					<span class="fancyArrow"></span>
@@ -62,15 +62,15 @@
 					</span>
 				</div>
 				<div class="box-last">
-					<p class="box-text text-short">plan</p>
-					<span class="icon-open icon-last">
+					<p class="box-text text-shorts">plan</p>
+					<span class="icon-open icon-lasts">
 						<i class="icon-up-open icon-white"></i>
 						<i class="icon-down-open icon-white"></i>
 					</span>
 				</div>
 				<div class="box-last">
-					<p class="box-text text-short">status</p>
-					<span class="icon-open icon-last">
+					<p class="box-text text-shorts">status</p>
+					<span class="icon-open icon-lasts">
 						<i class="icon-up-open"></i>
 						<i class="icon-down-open"></i>
 					</span>
@@ -94,10 +94,10 @@
 					<p class="box-text text-ext"><?php echo $a['apart_price'] ?></p>
 				</div>
 				<div class="ext-box-last">
-					<a class="box-text text-ext"><?php echo $a['apart_plan'] ?></a>
+					<a class="box-text text-exts"><?php echo $a['apart_plan'] ?></a>
 				</div>
 				<div class="ext-box-last">
-					<p class="box-text text-ext"><?php echo $a['apart_status'] ?></p>
+					<p class="box-text text-extes"><?php echo $a['apart_status'] ?></p>
 				</div>
 			</div>
 			<?php } ?>
