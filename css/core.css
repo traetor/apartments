@@ -229,6 +229,11 @@ select, option
 	width: 100px;
 }
 
+.text-ext
+{
+	padding-left: 20px;
+}
+
 .icon-open
 {
 	display: inline-block;
@@ -254,6 +259,12 @@ select, option
 	padding-left: 25px;
 }
 
+.ext-tab .ext-box-last a
+{
+	text-decoration: none;
+	cursor: pointer;
+}
+
 /*=============pagination+++++++++++++++*/
 .number-pag
 {
@@ -262,6 +273,12 @@ select, option
 	line-height: 36px;
 	margin: 15px;
 	display: inline-block;
+	background-color: #e5e5e5;
+	color: #54555a;;
+}
+
+.number-active
+{
 	background-color: #00a671;
 	color: white;
 }
@@ -284,6 +301,22 @@ pag a
 	text-decoration: none;
 	color: white;
 }
+
+/*=========APARTMENT-PREJECTION+++++++++*/
+#apartment-projections
+{
+	height: 850px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../img/bg.jpg);
+	margin-top: 50px;
+	position: relative;
+}
+
+
+
+
 
 @media screen and (min-width:0\0)
 {
