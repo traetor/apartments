@@ -27,4 +27,95 @@
 				</div>
 				<input type="submit" name="submit" class="btn btn-submit" value="Filtrowanie">
 			</form>
+			<div class="main-tab">
+				<div class="box">
+					<p class="box-text text-long">nr budynku mieszkania</p>
+					<span class="icon-open">
+						<i class="icon-up-open"></i>
+						<i class="icon-down-open"></i>
+					</span>
+				</div>
+				<div class="box">
+					<p class="box-text text-long">kondygnacja</p>
+					<span class="icon-open">
+						<i class="icon-up-open"></i>
+						<i class="icon-down-open"></i>
+					</span>
+				</div><div class="box">
+					<p class="box-text text-long">powierzchnia użytkowa</p>
+					<span class="icon-open">
+						<i class="icon-up-open"></i>
+						<i class="icon-down-open"></i>
+					</span>
+				</div><div class="box">
+					<p class="box-text text-long">powierzchnia ogródka/strychu</p>
+					<span class="icon-open icon-middle">
+						<i class="icon-up-open"></i>
+						<i class="icon-down-open"></i>
+					</span>
+				</div>
+				<div class="box-last">
+					<p class="box-text text-short">cena brutto</p>
+					<span class="icon-open icon-last">
+						<i class="icon-up-open"></i>
+						<i class="icon-down-open"></i>
+					</span>
+				</div>
+				<div class="box-last">
+					<p class="box-text text-short">plan</p>
+					<span class="icon-open icon-last">
+						<i class="icon-up-open icon-white"></i>
+						<i class="icon-down-open icon-white"></i>
+					</span>
+				</div>
+				<div class="box-last">
+					<p class="box-text text-short">status</p>
+					<span class="icon-open icon-last">
+						<i class="icon-up-open"></i>
+						<i class="icon-down-open"></i>
+					</span>
+				</div>
+			</div>
+			<?php foreach ($aparts as $a) { ?>
+			<div class="ext-tab">
+				<div class="ext-box">
+					<p class="box-text"><?php echo $a['apart_number'] ?></p>
+				</div>
+				<div class="ext-box">
+					<p class="box-text"><?php echo $a['apart_storey'] ?></p>
+				</div>
+				<div class="ext-box">
+					<p class="box-text"><?php echo $a['apart_area'] ?>m<sup>2</sup></p>
+				</div>
+				<div class="ext-box">
+					<p class="box-text"><?php echo $a['apart_attic_garden'] ?>m<sup>2</sup></p>
+				</div>
+				<div class="ext-box-last">
+					<p class="box-text text-ext"><?php echo $a['apart_price'] ?></p>
+				</div>
+				<div class="ext-box-last">
+					<a class="box-text text-ext"><?php echo $a['apart_plan'] ?></a>
+				</div>
+				<div class="ext-box-last">
+					<p class="box-text text-ext"><?php echo $a['apart_status'] ?></p>
+				</div>
+			</div>
+			<?php } ?>
+			<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="pag">
+						<a class="number-pag number-active" href="">
+								<p class="text-number">1</p>
+						</a><a class="number-pag" href="">
+								<p class="text-number">2</p>
+						</a><a class="number-pag" href="">
+								<p class="text-number">3</p>
+						</a><a class="number-pag" href="">
+								<p class="text-number">4</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		</div>

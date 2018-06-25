@@ -8,6 +8,7 @@ class main extends CI_Controller {
     $this->load->helper('url');
   }
   function index($l='home_page', $category='1', $page=0){
+    $data['aparts'] = $this->main_model->get_aparts();
     $data['header'] = 'bookmark/header';
     $data['navbar'] = 'bookmark/navbar';
     $data['availability'] = 'bookmark/availability';
