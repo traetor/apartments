@@ -20,19 +20,13 @@ class main extends CI_Controller {
    //     $data['store_items'] = $this->commando_model->get_one_category($categories, $page);
    // }
    // $data['categoriesID'] = $categories;
-    $data['news'] = $this->main_model->get_news();
-    $data['news_where'] = $this->main_model->get_news_where($category);
-    $data['navbar'] = 'bookmark/navbar';
-    $data['who'] = 'bookmark/who';
-    $data['footer'] = 'bookmark/footer';
+    //$data['news'] = $this->main_model->get_news();
+    //$data['news_where'] = $this->main_model->get_news_where($category);
     $data['header'] = 'bookmark/header';
-    $admin = 'admin';
-    if($this->session->userdata('login')==$admin) {
-       redirect('admin');
-    }elseif ($this->session->userdata('zalogowany')) {
-       redirect('user');
-    }else {
-        $this->load->view('index', $data);
-    }
+    $data['navbar'] = 'bookmark/navbar';
+    $data['availability'] = 'bookmark/availability';
+    $data['apartment_projections'] = 'bookmark/apartment_projections';
+    $data['contact'] = 'bookmark/contact';
+    $this->load->view('index', $data);
   }
 }

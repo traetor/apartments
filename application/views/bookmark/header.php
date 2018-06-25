@@ -9,15 +9,15 @@
 	    <!-- Wrapper for slides -->
 	    <div class="carousel-inner">
 	        <div class="item active">
-	            <div class="image" style="background-image: url('img/background.jpg')"></div>
+	            <div class="image" style="background-image: url('assets/img/background.jpg')"></div>
 	            <div class="carousel-caption">Zdjęcie 1</div>
 	        </div>
 	        <div class="item">
-	            <div class="image" style="background-image: url('img/background2.jpg')"></div>
+	            <div class="image" style="background-image: url('assets/img/background2.jpg')"></div>
 	            <div class="carousel-caption">Zdjęcie 2</div>
 	        </div>
 	        <div class="item">
-	            <div class="image" style="background-image: url('img/background3.jpg')"></div>
+	            <div class="image" style="background-image: url('assets/img/background3.jpg')"></div>
 	            <div class="carousel-caption">Zdjęcie 3</div>
 	        </div>
 	    </div>

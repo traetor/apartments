@@ -18,17 +18,17 @@
   </header>
   <section id="availability">
     <?php
-      echo $this->view($availability);
+      //echo $this->view($availability);
     ?>
   </section>
   <section id="apartment-projections">
     <?php
-      echo $this->view($apartment_projections);
+      //echo $this->view($apartment_projections);
     ?>
   </section>
   <section id="contact">
     <?php 
-      echo $this->view($contact);
+      //echo $this->view($contact);
     ?>
   </section>
   <script src="<?php echo base_url(); ?>assets/js/jquery-3.3.1.min.js"></script>

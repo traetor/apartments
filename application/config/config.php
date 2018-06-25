@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://jk.nm.net.pl/pro/';
+$config['base_url']	= 'http://localhost/zadanie/';
 
 /*
 |--------------------------------------------------------------------------

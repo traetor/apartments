@@ -4,36 +4,21 @@ class main_model extends CI_Model {
   function __construct() {
     parent::__construct();
   }
-  function choose(){
-    $login = $this->session->userdata('login');
-    $query = $this->db->query("select * from users where login='$login'");
-    return $query->result_array();
-  }
-  function try_login($login, $password){
-    $query = $this->db->query("select * from users where login='$login' and password='$password'");
-    if($query->num_rows()==1){
-      if($query->num_rows()==1){
-      	return TRUE;
-      }else {		
-        return FALSE;
-      }
-    }
-  }
 //    function get_page($page){
 //        $offset=$page*$this->itemsPerPage;
 //        $query=$this->db->query("select * from store_items limit $offset, $this->itemsPerPage");
 //        return $query->result_array();
 //    }
-  function get_news(){
-    $offset=$page*$this->itemsPerPage;
-    $query = $this->db->query("select * from news order by news_id DESC");
-    //$query = $this->db->get('news');
-    return $query->result_array();
-  }
-  function get_news_where($what){
-    $query = $this->db->query("select * from news where news_id='$what'");
-    return $query->result_array();
-  }
+  // function get_news(){
+  //   $offset=$page*$this->itemsPerPage;
+  //   $query = $this->db->query("select * from news order by news_id DESC");
+  //   //$query = $this->db->get('news');
+  //   return $query->result_array();
+  // }
+  // function get_news_where($what){
+  //   $query = $this->db->query("select * from news where news_id='$what'");
+  //   return $query->result_array();
+  // }
 //    function get_one_category($categories, $page){
 //        $offset=$page*$this->itemsPerPage;
 //        $query=$this->db->query("select * from store_items where category_name='$categories' limit $offset, $this->itemsPerPage");
