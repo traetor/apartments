@@ -15,10 +15,31 @@
 					</div>
 					<div class="apart-legend">
 						<div class="legend-left">
-							<p class="text-legend"> powierzchnia użytkowa</p>
+							<p class="text-legend-left">powierzchnia użytkowa</p>
+							<div class="legend-circle">1</div>
+							<p class="text-legend">salon z aneksem kuchennym</p>
+							<div class="legend-circle">2</div>
+							<p class="text-legend">łazienka</p>
+							<div class="legend-circle">3</div>
+							<p class="text-legend">pokój</p>
+							<div class="legend-circle">4</div>
+							<p class="text-legend">pokój</p>
+							<div class="legend-circle">5</div>
+							<p class="text-legend">garderoba</p>
+							<div class="legend-circle">6</div>
+							<p class="text-legend">hol</p>
+							<div class="legend-circle">7</div>
+							<p class="text-legend">przedpokój</p>
 						</div>
 						<div class="legend-right">
-							<p class="text-legend">64,32m<sup>2</sup></p>
+							<p class="text-legend-right right-main">64,32 m<sup>2</sup></p>
+							<p class="text-legend-right right-details">25,50 m<sup>2</sup></p>
+							<p class="text-legend-right right-details">6,33 m<sup>2</sup></p>
+							<p class="text-legend-right right-details">12,05 m<sup>2</sup></p>
+							<p class="text-legend-right right-details">9,53 m<sup>2</sup></p>
+							<p class="text-legend-right right-details">1,62 m<sup>2</sup></p>
+							<p class="text-legend-right right-details">5,50 m<sup>2</sup></p>
+							<p class="text-legend-right right-details">3,79 m<sup>2</sup></p>
 						</div>
 					</div>
 				</div>

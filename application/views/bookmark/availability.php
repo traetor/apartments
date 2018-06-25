@@ -85,10 +85,10 @@
 					<p class="box-text"><?php echo $a['apart_storey'] ?></p>
 				</div>
 				<div class="ext-box">
-					<p class="box-text"><?php echo $a['apart_area'] ?>m<sup>2</sup></p>
+					<p class="box-text"><?php echo $a['apart_area'] ?> m<sup>2</sup></p>
 				</div>
 				<div class="ext-box">
-					<p class="box-text"><?php echo $a['apart_attic_garden'] ?>m<sup>2</sup></p>
+					<p class="box-text"><?php echo $a['apart_attic_garden'] ?> m<sup>2</sup></p>
 				</div>
 				<div class="ext-box-last">
 					<p class="box-text text-ext"><?php echo $a['apart_price'] ?></p>
