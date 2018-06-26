@@ -297,7 +297,7 @@ select, option
 	margin: 15px;
 	display: inline-block;
 	background-color: #e5e5e5;
-	color: #54555a;;
+	color: #54555a;
 }
 
 .number-active
@@ -497,6 +497,7 @@ pag a
 	position: relative;
 	width: 265px;
 	vertical-align: text-top;
+	margin-bottom: 50px;
 }
 
 .logo-title p
@@ -508,6 +509,48 @@ pag a
 	padding-left: 15px;
 }
 
+.logo-desc{}
+
+.contact-details
+{
+	margin-top: 180px;
+}
+
+.contact-details p
+{
+	margin-bottom: 30px;
+}
+
+.form
+{
+	padding-top: 47px;
+}
+
+.form-groups
+{
+	margin-bottom: 30px;
+}
+
+.form button[type="submit"]
+{
+	background-color: #54555a;
+	width: 100%;
+	border: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.form .form-groups textarea
+{
+	height: 200px;
+}
+
+.form-control
+{
+	color: black !important;
+
+}
 
 @media screen and (min-width:0\0)
 {
