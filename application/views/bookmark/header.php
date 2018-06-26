@@ -24,10 +24,10 @@
 	    
 	    <!-- Controls -->
 	    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-	        <span class="glyphicon glyphicon-chevron-left glyph-mob-left" style="top: 90%; font-size: 50px;"></span>
+	        <span class="glyphicon glyphicon-chevron-left glyph-mob-left" style="top: 88%; font-size: 50px;"></span>
 	    </a>
 	    <a class="right carousel-control controls" href="#carousel-example-generic" role="button" data-slide="next">
-	        <span class="glyphicon glyphicon-chevron-right glyph-mob-right" style="top: 90%; font-size: 50px;"></span>
+	        <span class="glyphicon glyphicon-chevron-right glyph-mob-right" style="top: 88%; font-size: 50px;"></span>
 	    </a>
 		</div>
 		<?php 
