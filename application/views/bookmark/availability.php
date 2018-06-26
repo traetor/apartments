@@ -113,13 +113,13 @@
 			<div class="col-xs-12 padding-imp">
 				<?php foreach ($aparts as $a) { ?>
 				<div class="ext-tab col-xs-12 padding-imp">
-					<div class="ext-box col-xs-3 col-lg-2">
+					<div class="ext-box col-xs-3 col-lg-2 padding-imp">
 						<p class="box-text"><?php echo $a['apart_number'] ?></p>
 					</div>
-					<div class="ext-box col-xs-3 col-lg-2">
+					<div class="ext-box col-xs-3 col-lg-2 padding-imp">
 						<p class="box-text"><?php echo $a['apart_storey'] ?></p>
 					</div>
-					<div class="ext-box col-xs-3 col-lg-2">
+					<div class="ext-box col-xs-3 col-lg-2 padding-imp">
 						<p class="box-text"><?php echo $a['apart_area'] ?> m<sup>2</sup></p>
 					</div>
 					<div class="ext-box tab-hid">

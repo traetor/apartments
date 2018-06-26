@@ -217,7 +217,6 @@ select, option
 	display: inline-block;
 	height: 40px;
 	position: relative;
-	float: left;
 }
 
 .ext-box-last
@@ -443,8 +442,7 @@ pag a
 .text-legend
 {
 	display: inline-block;
-	padding-left: 15px;
-	width: 300px;
+	line-height: 30px;
 }
 
 .text-legend-left
@@ -461,11 +459,6 @@ pag a
 .right-main
 {
 	padding-bottom: 20px;
-}
-
-.right-details
-{
-	line-height: 30px;
 }
 
 .legend-right
@@ -690,6 +683,16 @@ pag a
   	transform: translateY(-50%);
 	}
 
+	.ext-tab
+	{
+		text-align: center;
+	}
+
+	.ext-box
+	{
+		height: 30px;
+	}
+
 	.tab-hid
 	{
 		display: none;
@@ -716,15 +719,55 @@ pag a
 		min-height: 100vh;
 	}
 
+	.project-position
+	{
+		margin-top: 50px;
+	}
+
+	.img-mobile
+	{
+		width: 100%;
+		margin-top: 100px;
+	}
+
+	.apart-box
+	{
+		width: 100%;
+		background-color: #54555a;
+		margin-bottom: 10px;
+	}
+
+	.apart-left
+	{
+		margin-right: 0;
+	}
+
+	.padding-imp5
+	{
+		padding-right: 5 !important; 
+		padding-left: 5 !important;
+	}
+
+	.text-legends
+	{
+		line-height: 17px;
+	}
+
 	.apart-legend {
     display: inline-block;
     position: relative;
     height: 380px;
     width: 100%;
     background-color: #56342c;
-    margin-top: 140px;
+    margin-top: 15px;
 	  padding: 15px;
-	  font-size: 12px;
+	  font-size: 16px;
+	}
+
+	.legend-menu
+	{
+		position: absolute;
+		width: 91%;
 	}
 
 	#contact
