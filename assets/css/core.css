@@ -231,10 +231,9 @@ select, option
 
 .box
 {
-	width: 200px;
 	display: inline-block;
-	height: 70px;
 	position: relative;
+	height: 70px;
 }
 
 .box-last
@@ -248,12 +247,10 @@ select, option
 .box-text
 {
 	display: inline-block;
-	width: 100px;
 	text-align: center;
-	float: left;
 	position: relative;
 	top: 50%;
-	transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .text-short
@@ -296,8 +293,8 @@ select, option
 	width: 20px;
 	height: 50px;
 	position: relative;
-	top: 70%;
-	transform: translateY(-50%);
+	top: 50%;
+  transform: translateY(-50%);
 }
 
 .icon-white
@@ -324,6 +321,11 @@ select, option
 {
 	text-decoration: none;
 	cursor: pointer;
+}
+
+.tab-change
+{
+	display: none;
 }
 
 /*=============pagination+++++++++++++++*/
@@ -366,7 +368,7 @@ pag a
 /*=========APARTMENT-PREJECTION+++++++++*/
 #apartment-projections
 {
-	height: 850px;
+	min-height: 850px;
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -477,7 +479,7 @@ pag a
 /*============KONTAKT=====+++++++++*/
 #contact
 {
-	height: 700px;
+	min-height: 700px;
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -634,13 +636,100 @@ pag a
 
 	.fancy-mob
 	{
-		text-align: center;
+		//text-align: center;
+	}
+
+	.fancy-mob .notIE
+	{
+		width: 100%;
+	}
+
+	.fancy-mob select
+	{
+		width: 100%;
+	}
+
+	.fancy-mob .btn
+	{
+		width: 100%;
 	}
 
 	.form-availability
 	{
 		margin-top: 10px;
 		margin-bottom: 0px;
+	}
+
+	.main-tab
+	{
+		height: auto;
+	}
+
+	.box
+	{
+		width: 100%;
+		text-align: center;
+		height: 50px;
+		font-size: 12px;
+	}
+
+	.box-text
+	{
+		top: 70%;
+  	transform: translateY(-50%);
+	}
+
+	.text-long
+	{
+		width: auto;
+	}
+
+	.icon-open
+	{
+		top: 70%;
+  	transform: translateY(-50%);
+	}
+
+	.tab-hid
+	{
+		display: none;
+	}
+
+	.tab-change
+	{
+		display: inline-block;
+		text-align: center;
+		top: 15px;
+	}
+
+	.vis-mobil
+	{
+		display: inline-block;
+		position: relative;
+		background: url(../img/down.png);
+		height: 35px;
+		width: 35px;
+	}
+
+	#apartment-projections
+	{
+		min-height: 100vh;
+	}
+
+	.apart-legend {
+    display: inline-block;
+    position: relative;
+    height: 380px;
+    width: 100%;
+    background-color: #56342c;
+    margin-top: 140px;
+	  padding: 15px;
+	  font-size: 12px;
+	}
+
+	#contact
+	{
+		min-height: 100vh;
 	}
 }
 

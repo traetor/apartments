@@ -43,82 +43,100 @@
 				</div>
 				</form>
 			</div>
-			<div class="col-lg-12 padding-imp">
-				<div class="main-tab">
+			<div class="col-xs-12 padding-imp main-tab">
+				<div class="col-xs-3 col-lg-2 padding-imp">
 					<div class="box">
 						<p class="box-text text-long">nr budynku mieszkania</p>
-						<span class="icon-open">
-							<i class="icon-up-open"></i>
-							<i class="icon-down-open"></i>
-						</span>
 					</div>
 					<div class="box">
+						<span class="icon-open">
+							<i class="icon-up-open"></i>
+							<i class="icon-down-open"></i>
+						</span>
+					</div>
+				</div>
+				<div class="col-xs-3 col-lg-2 padding-imp">
+					<div class="box">
 						<p class="box-text text-long">kondygnacja</p>
+					</div>
+					<div class="box">
 						<span class="icon-open">
 							<i class="icon-up-open"></i>
 							<i class="icon-down-open"></i>
 						</span>
-					</div><div class="box">
+					</div>
+				</div>
+				<div class="col-xs-3 col-lg-2 padding-imp">
+					<div class="box">
 						<p class="box-text text-long">powierzchnia użytkowa</p>
+					</div>
+					<div class="box">
 						<span class="icon-open">
 							<i class="icon-up-open"></i>
 							<i class="icon-down-open"></i>
 						</span>
-					</div><div class="box">
-						<p class="box-text text-long">powierzchnia ogródka/strychu</p>
-						<span class="icon-open icon-middle">
-							<i class="icon-up-open"></i>
-							<i class="icon-down-open"></i>
-						</span>
-					</div>
-					<div class="box-last">
-						<p class="box-text text-short">cena brutto</p>
-						<span class="icon-open icon-last">
-							<i class="icon-up-open"></i>
-							<i class="icon-down-open"></i>
-						</span>
-					</div>
-					<div class="box-last">
-						<p class="box-text text-shorts">plan</p>
-						<span class="icon-open icon-lasts">
-							<i class="icon-up-open icon-white"></i>
-							<i class="icon-down-open icon-white"></i>
-						</span>
-					</div>
-					<div class="box-last">
-						<p class="box-text text-shorts">status</p>
-						<span class="icon-open icon-lasts">
-							<i class="icon-up-open"></i>
-							<i class="icon-down-open"></i>
-						</span>
 					</div>
 				</div>
+				<div class="col-xs-3 col-lg-2 padding-imp tab-change">
+				 	<div class="vis-mobil"></div><br>
+				 	<div class="vis-mobil"></div>
+				</div>
+				 <div class="box tab-hid">
+					<p class="box-text text-long">powierzchnia ogródka/strychu</p>
+					<span class="icon-open icon-middle">
+						<i class="icon-up-open"></i>
+						<i class="icon-down-open"></i>
+					</span>
+				</div>
+				<div class="box-last tab-hid">
+					<p class="box-text text-short">cena brutto</p>
+					<span class="icon-open icon-last">
+						<i class="icon-up-open"></i>
+						<i class="icon-down-open"></i>
+					</span>
+				</div>
+				<div class="box-last tab-hid">
+					<p class="box-text text-shorts">plan</p>
+					<span class="icon-open icon-lasts">
+						<i class="icon-up-open icon-white"></i>
+						<i class="icon-down-open icon-white"></i>
+					</span>
+				</div>
+				<div class="box-last tab-hid">
+					<p class="box-text text-shorts">status</p>
+					<span class="icon-open icon-lasts">
+						<i class="icon-up-open"></i>
+						<i class="icon-down-open"></i>
+					</span>
+				</div> 
 			</div>
-			<?php foreach ($aparts as $a) { ?>
-			<div class="ext-tab">
-				<div class="ext-box">
-					<p class="box-text"><?php echo $a['apart_number'] ?></p>
+			<div class="col-xs-12 padding-imp">
+				<?php foreach ($aparts as $a) { ?>
+				<div class="ext-tab col-xs-12 padding-imp">
+					<div class="ext-box col-xs-3 col-lg-2">
+						<p class="box-text"><?php echo $a['apart_number'] ?></p>
+					</div>
+					<div class="ext-box col-xs-3 col-lg-2">
+						<p class="box-text"><?php echo $a['apart_storey'] ?></p>
+					</div>
+					<div class="ext-box col-xs-3 col-lg-2">
+						<p class="box-text"><?php echo $a['apart_area'] ?> m<sup>2</sup></p>
+					</div>
+					<div class="ext-box tab-hid">
+						<p class="box-text"><?php echo $a['apart_attic_garden'] ?> m<sup>2</sup></p>
+					</div>
+					<div class="ext-box-last tab-hid">
+						<p class="box-text text-ext"><?php echo $a['apart_price'] ?></p>
+					</div>
+					<div class="ext-box-last tab-hid">
+						<a class="box-text text-exts"><?php echo $a['apart_plan'] ?></a>
+					</div>
+					<div class="ext-box-last tab-hid">
+						<p class="box-text text-extes"><?php echo $a['apart_status'] ?></p>
+					</div>
 				</div>
-				<div class="ext-box">
-					<p class="box-text"><?php echo $a['apart_storey'] ?></p>
-				</div>
-				<div class="ext-box">
-					<p class="box-text"><?php echo $a['apart_area'] ?> m<sup>2</sup></p>
-				</div>
-				<div class="ext-box">
-					<p class="box-text"><?php echo $a['apart_attic_garden'] ?> m<sup>2</sup></p>
-				</div>
-				<div class="ext-box-last">
-					<p class="box-text text-ext"><?php echo $a['apart_price'] ?></p>
-				</div>
-				<div class="ext-box-last">
-					<a class="box-text text-exts"><?php echo $a['apart_plan'] ?></a>
-				</div>
-				<div class="ext-box-last">
-					<p class="box-text text-extes"><?php echo $a['apart_status'] ?></p>
-				</div>
+				<?php } ?>
 			</div>
-			<?php } ?>
 			<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center">
