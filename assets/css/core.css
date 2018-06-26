@@ -223,7 +223,6 @@ select, option
 
 .ext-box
 {
-	width: 200px;
 	display: inline-block;
 	height: 40px;
 	position: relative;
@@ -236,6 +235,7 @@ select, option
 	height: 40px;
 	position: relative;
 	float: left;
+	right: 50px;
 }
 
 .box
@@ -251,6 +251,7 @@ select, option
 	display: inline-block;
 	height: 70px;
 	position: relative;
+	right: 30px;
 }
 
 .box-text
@@ -260,6 +261,11 @@ select, option
 	position: relative;
 	top: 50%;
   transform: translateY(-50%);
+}
+
+.ext-text
+{
+	left: 30px;
 }
 
 .text-short
@@ -274,6 +280,11 @@ select, option
 	padding-left: 50px;
 }
 
+.text-to-short
+{
+	position: relative;
+	top: 20px;
+}
 
 .text-long
 {
@@ -304,6 +315,11 @@ select, option
 	position: relative;
 	top: 50%;
   transform: translateY(-50%);
+}
+
+.icon-to-short
+{
+	top: 60%;
 }
 
 .icon-white
@@ -679,6 +695,11 @@ pag a
 	{
 		top: 70%;
   	transform: translateY(-50%);
+	}
+
+	.ext-text
+	{
+		left: 0px;
 	}
 
 	.text-long

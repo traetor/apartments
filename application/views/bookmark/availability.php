@@ -2,7 +2,7 @@
 			<div class="col-lg-12 form-availability padding-imp">
 				<form action="">
 					<div class="col-lg-4 padding-imp">
-						<div class="col-xs-6 padding-imp5 fancy-mob">
+						<div class="col-xs-6 padding-imp5 padding-imp fancy-mob">
 							<div class="notIE">
 								<span class="fancyArrow"></span>
 								<select>
@@ -10,7 +10,7 @@
 								</select>
 							</div>
 						</div>
-						<div class="col-xs-6 padding-imp5 fancy-mob">
+						<div class="col-xs-6 padding-imp5 padding-imp fancy-mob">
 							<div class="notIE">
 								<span class="fancyArrow"></span>
 								<select>
@@ -21,7 +21,7 @@
 						</div>
 					</div>
 					<div class="col-lg-4 padding-imp">
-						<div class="col-xs-6 padding-imp5 fancy-mob">
+						<div class="col-xs-6 padding-imp5 padding-imp fancy-mob">
 							<div class="notIE">
 								<span class="fancyArrow"></span>
 								<select>
@@ -29,7 +29,7 @@
 								</select>
 							</div>
 						</div>
-						<div class="col-xs-6 padding-imp5 fancy-mob">
+						<div class="col-xs-6 padding-imp5 padding-imp fancy-mob">
 							<div class="notIE">
 								<span class="fancyArrow"></span>
 								<select>
@@ -38,7 +38,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 padding-imp5 fancy-mob">
+					<div class="col-lg-4 padding-imp5 padding-imp fancy-mob">
 					<input type="submit" name="submit" class="btn btn-submit" value="Filtrowanie">
 				</div>
 				</form>
@@ -57,10 +57,10 @@
 				</div>
 				<div class="col-xs-3 col-lg-2 padding-imp">
 					<div class="box">
-						<p class="box-text text-long">kondygnacja</p>
+						<p class="box-text text-long text-to-short">kondygnacja</p>
 					</div>
 					<div class="box">
-						<span class="icon-open">
+						<span class="icon-open icon-to-short">
 							<i class="icon-up-open"></i>
 							<i class="icon-down-open"></i>
 						</span>
@@ -81,57 +81,65 @@
 				 	<div class="vis-mobil"></div><br>
 				 	<div class="vis-mobil"></div>
 				</div>
-				 <div class="box tab-hid">
-					<p class="box-text text-long">powierzchnia ogródka/strychu</p>
-					<span class="icon-open icon-middle">
-						<i class="icon-up-open"></i>
-						<i class="icon-down-open"></i>
-					</span>
+				<div class="col-xs-3 col-lg-2 padding-imp">
+				 	<div class="box tab-hid">
+						<p class="box-text text-long">powierzchnia ogródka/strychu</p>
+						<span class="icon-open icon-middle">
+							<i class="icon-up-open"></i>
+							<i class="icon-down-open"></i>
+						</span>
+					</div>
 				</div>
-				<div class="box-last tab-hid">
-					<p class="box-text text-short">cena brutto</p>
-					<span class="icon-open icon-last">
-						<i class="icon-up-open"></i>
-						<i class="icon-down-open"></i>
-					</span>
+				<div class="col-xs-3 col-lg-2 padding-imp">
+					<div class="box tab-hid">
+						<p class="box-text text-short">cena brutto</p>
+						<span class="icon-open icon-last">
+							<i class="icon-up-open"></i>
+							<i class="icon-down-open"></i>
+						</span>
+					</div>
 				</div>
-				<div class="box-last tab-hid">
-					<p class="box-text text-shorts">plan</p>
-					<span class="icon-open icon-lasts">
-						<i class="icon-up-open icon-white"></i>
-						<i class="icon-down-open icon-white"></i>
-					</span>
+				<div class="col-xs-3 col-lg-1 padding-imp">
+					<div class="box-last tab-hid">
+						<p class="box-text text-shorts text-to-short">plan</p>
+						<span class="icon-open icon-lasts">
+							<i class="icon-up-open icon-white"></i>
+							<i class="icon-down-open icon-white"></i>
+						</span>
+					</div>
 				</div>
-				<div class="box-last tab-hid">
-					<p class="box-text text-shorts">status</p>
-					<span class="icon-open icon-lasts">
-						<i class="icon-up-open"></i>
-						<i class="icon-down-open"></i>
-					</span>
-				</div> 
+				<div class="col-xs-3 col-lg-1 padding-imp">
+					<div class="box-last tab-hid">
+						<p class="box-text text-shorts text-to-short">status</p>
+						<span class="icon-open icon-lasts icon-to-short">
+							<i class="icon-up-open"></i>
+							<i class="icon-down-open"></i>
+						</span>
+					</div> 
+				</div>
 			</div>
 			<div class="col-xs-12 padding-imp">
 				<?php foreach ($aparts as $a) { ?>
 				<div class="ext-tab col-xs-12 padding-imp">
 					<div class="ext-box col-xs-3 col-lg-2 padding-imp">
-						<p class="box-text"><?php echo $a['apart_number'] ?></p>
+						<p class="box-text ext-text"><?php echo $a['apart_number'] ?></p>
 					</div>
 					<div class="ext-box col-xs-3 col-lg-2 padding-imp">
-						<p class="box-text"><?php echo $a['apart_storey'] ?></p>
+						<p class="box-text ext-text"><?php echo $a['apart_storey'] ?></p>
 					</div>
 					<div class="ext-box col-xs-3 col-lg-2 padding-imp">
-						<p class="box-text"><?php echo $a['apart_area'] ?> m<sup>2</sup></p>
+						<p class="box-text ext-text"><?php echo $a['apart_area'] ?> m<sup>2</sup></p>
 					</div>
-					<div class="ext-box tab-hid">
+					<div class="ext-box col-xs-3 col-lg-2 tab-hid">
 						<p class="box-text"><?php echo $a['apart_attic_garden'] ?> m<sup>2</sup></p>
 					</div>
-					<div class="ext-box-last tab-hid">
+					<div class="ext-box col-xs-3 col-lg-2 tab-hid">
 						<p class="box-text text-ext"><?php echo $a['apart_price'] ?></p>
 					</div>
-					<div class="ext-box-last tab-hid">
+					<div class="ext-box-last col-xs-3 col-lg-1 tab-hid">
 						<a class="box-text text-exts"><?php echo $a['apart_plan'] ?></a>
 					</div>
-					<div class="ext-box-last tab-hid">
+					<div class="ext-box-last col-xs-3 col-lg-1 tab-hid">
 						<p class="box-text text-extes"><?php echo $a['apart_status'] ?></p>
 					</div>
 				</div>
