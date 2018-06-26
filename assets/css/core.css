@@ -30,6 +30,21 @@ body
 	background-repeat: no-repeat;
 }
 
+.carousel-text
+{
+	font-size: 22px;
+}
+
+.glyph-mob-left
+{
+	margin-left: -50px !important;
+}
+
+.glyph-mob-right
+{
+	margin-right: -50px !important;
+}
+
 /*===============NAVBAR===============*/
 #nav-menu-container
 {
@@ -40,6 +55,7 @@ body
   overflow: hidden;
   position: absolute;
   font-family: "Lato-Regular", sans-serif;
+  border: none;
 }
 
 #nav-menu-container .nav-menu
@@ -82,6 +98,14 @@ body
 .navbar-link:hover
 {
 	color: green;
+}
+
+.navbar-toggle
+{
+	background: url(../img/down.png);
+	height: 35px;
+	width: 35px;
+	top: 15px;
 }
 
 /*=============AVAILABILITY=============*/
@@ -495,7 +519,7 @@ pag a
 {
 	display: inline-block;
 	position: relative;
-	width: 265px;
+	width: 260px;
 	vertical-align: text-top;
 	margin-bottom: 50px;
 }
@@ -552,10 +576,42 @@ pag a
 
 }
 
+@media only screen and (max-width: 479px)
+{
+	.nav-height
+	{
+		height: 84px;
+	}
+
+	#nav-menu-container .nav-menu
+	{
+		left: 0;
+
+	}
+
+	#nav-menu-container .nav-menu .nav-item
+	{
+	  right: 0;
+	  width: 100%;
+	}
+
+	.glyph-mob-left
+	{
+		margin-left: -10px !important;
+	}
+
+	.glyph-mob-right
+	{
+		margin-right: -10px !important;
+	}
+}
+
 @media screen and (min-width:0\0)
 {
 	.notIE .fancyArrow
 	{
 		display: none;
 	}
+
+
 }
