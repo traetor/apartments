@@ -2,7 +2,7 @@
 			<div class="col-lg-12 form-availability padding-imp">
 				<form action="">
 					<div class="col-lg-4 padding-imp">
-						<div class="col-xs-6 padding-imp fancy-mob">
+						<div class="col-xs-6 padding-imp5 fancy-mob">
 							<div class="notIE">
 								<span class="fancyArrow"></span>
 								<select>
@@ -10,7 +10,7 @@
 								</select>
 							</div>
 						</div>
-						<div class="col-xs-6 padding-imp fancy-mob">
+						<div class="col-xs-6 padding-imp5 fancy-mob">
 							<div class="notIE">
 								<span class="fancyArrow"></span>
 								<select>
@@ -21,7 +21,7 @@
 						</div>
 					</div>
 					<div class="col-lg-4 padding-imp">
-						<div class="col-xs-6 padding-imp fancy-mob">
+						<div class="col-xs-6 padding-imp5 fancy-mob">
 							<div class="notIE">
 								<span class="fancyArrow"></span>
 								<select>
@@ -29,7 +29,7 @@
 								</select>
 							</div>
 						</div>
-						<div class="col-xs-6 padding-imp fancy-mob">
+						<div class="col-xs-6 padding-imp5 fancy-mob">
 							<div class="notIE">
 								<span class="fancyArrow"></span>
 								<select>
@@ -38,7 +38,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 padding-imp fancy-mob">
+					<div class="col-lg-4 padding-imp5 fancy-mob">
 					<input type="submit" name="submit" class="btn btn-submit" value="Filtrowanie">
 				</div>
 				</form>

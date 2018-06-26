@@ -1,6 +1,6 @@
 		<div class="container padding-imp">
 			<div class="row project-position">
-				<div class="col-lg-6 col-xs-12">
+				<div class="col-lg-6 col-xs-12 padding-imp5">
 					<img class="img-mobile" src="<?php echo base_url(); ?>assets/img/plan.png">
 				</div>
 				<div class="col-lg-6">
@@ -26,7 +26,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="apart-legend">
+					<div class="apart-legend col-xs-12 padding-imp5">
 						<div class="col-xs-12 padding-imp5 padding-imp">
 							<p class="col-xs-9 col-lg-10 padding-imp">powierzchnia użytkowa</p>
 							<p class="col-xs-3 col-lg-2 padding-imp text-legend-right">64,32 m<sup>2</sup></p>

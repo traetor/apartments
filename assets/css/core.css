@@ -192,6 +192,16 @@ select, option
 	bottom: 2px;
 }
 
+.btn-less
+{
+	display: none;
+	background-color: #00a671;
+	height: 35px;
+	text-transform: uppercase;
+	width: 100%;
+
+}
+
 .btn-submit:hover
 {
 	//background-color: black;
@@ -492,7 +502,6 @@ pag a
 {
 	display: inline-block;
 	position: relative;
-	width: 100px;
 	height: 51px;
 	font-size: 24px;
 }
@@ -501,8 +510,7 @@ pag a
 {
 	display: inline-block;
   position: relative;
-  width: 265px;
-  height: 45px;
+  height: 51px;
   font-size: 24px;
   text-transform: uppercase;
   border-bottom: 3px solid #00a66f;
@@ -528,9 +536,8 @@ pag a
 {
 	display: inline-block;
 	position: relative;
-	width: 260px;
 	vertical-align: text-top;
-	margin-bottom: 50px;
+	margin-top: 100px;
 }
 
 .logo-title p
@@ -538,11 +545,13 @@ pag a
 	color: grey;
 	text-transform: uppercase;
 	font-size: 14px;
-	width: 140px;
 	padding-left: 15px;
 }
 
-.logo-desc{}
+.logo-desc
+{
+	margin-top: 50px;
+}
 
 .contact-details
 {
@@ -726,7 +735,7 @@ pag a
 
 	.img-mobile
 	{
-		width: 100%;
+		width: 97%;
 		margin-top: 100px;
 	}
 
@@ -773,6 +782,16 @@ pag a
 	#contact
 	{
 		min-height: 100vh;
+	}
+
+	.contact-details
+	{
+		margin-top: 30px;
+	}
+
+	.btn-submit
+	{
+		display: inline-block;
 	}
 }
 
