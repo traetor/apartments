@@ -10,9 +10,16 @@
 	src: url('../fonts/Lato-Regular.ttf');
 }
 
+* 
+{
+	margin: 0;
+	box-sizing: border-box;
+}
+
 body
 {
 	font-family: "Lato-Bold", sans-serif;
+	overflow-x: hidden;
 }
 
 /*===============HEADER===============*/
@@ -362,7 +369,36 @@ select, option
 	margin: 15px;
 	display: inline-block;
 	background-color: #e5e5e5;
-	color: #54555a;
+}
+
+.next-page
+{
+	background: url(../img/down.png);
+	height: 35px;
+	width: 35px;
+	margin: 15px;
+	bottom: 8px;
+	position: relative;
+	display: inline-block;
+	transform:rotate(-90deg); 
+	-webkit-transform:rotate(-90deg); 
+	-moz-transform:rotate(-90deg); 
+	-o-transform:rotate(-90deg);
+}
+
+.prev-page
+{
+	background: url(../img/down.png);
+	height: 35px;
+	width: 35px;
+	margin: 15px;
+	bottom: 8px;
+	position: relative;
+	display: inline-block;
+	transform:rotate(90deg); 
+	-webkit-transform:rotate(90deg); 
+	-moz-transform:rotate(90deg); 
+	-o-transform:rotate(90deg);
 }
 
 .number-active
@@ -378,13 +414,13 @@ select, option
 
 }
 
-pag a
+.number-pag a
 {
 	text-decoration: none;
-	color: white;
+	color: #54555a;
 }
 
-.number-pag:hover
+.number-pag a:hover
 {
 	text-decoration: none;
 	color: white;
@@ -608,6 +644,17 @@ pag a
 {
 	color: black !important;
 
+}
+
+.copyright
+{
+	text-align: center;
+	position: absolute;
+	font-size: 14px;
+	bottom: 0;
+	width: 150px;
+	left: 50%; 
+	margin-left: -75px;
 }
 
 @media only screen and (max-width: 767px)

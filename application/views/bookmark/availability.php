@@ -119,7 +119,8 @@
 				</div>
 			</div>
 			<div class="col-xs-12 padding-imp">
-				<?php foreach ($aparts as $a) { ?>
+				<?php 
+					foreach ($aparts as $a) { ?>
 				<div class="ext-tab col-xs-12 padding-imp">
 					<div class="ext-box col-xs-3 col-lg-2 padding-imp">
 						<p class="box-text ext-text"><?php echo $a['apart_number'] ?></p>
@@ -148,17 +149,33 @@
 			<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center">
-					<div class="pag">
-						<a class="number-pag number-active" href="">
-								<p class="text-number">1</p>
-						</a><a class="number-pag" href="">
-								<p class="text-number">2</p>
-						</a><a class="number-pag" href="">
-								<p class="text-number">3</p>
-						</a><a class="number-pag" href="">
-								<p class="text-number">4</p>
-						</a>
-					</div>
+					<?php
+						$config['base_url'] = site_url('main/index/');
+						$config['total_rows'] = $total_rows/$items_per_page;
+						$config['per_page'] = $items_per_page/$items_per_page;
+						$config['uri_segment'] = 3;
+						$config['full_tag_open'] = '<div class="pag">';
+						$config['full_tag_close'] = '</div>';
+						$config['cur_tag_open'] = '<span class="number-pag number-active">';
+						$config['cur_tag_close'] = '</span>';
+						$config['next_tag_open'] = '<span class="next-page">';
+						$config['next_tag_close'] = '</span>';
+						$config['prev_tag_open'] = '<span class="prev-page">';
+						$config['prev_tag_close'] = '</span>';
+						$config['num_tag_open'] = '<span class="number-pag">';
+						$config['num_tag_close'] = '</span>';
+						$this->pagination->initialize($config);
+						echo $this->pagination->create_links(); 
+					?>
+					<!-- <a class="number-pag number-active" href="">
+							<p class="text-number">1</p>
+					</a><a class="number-pag" href="">
+							<p class="text-number">2</p>
+					</a><a class="number-pag" href="">
+							<p class="text-number">3</p>
+					</a><a class="number-pag" href="">
+							<p class="text-number">4</p>
+					</a> -->
 				</div>
 			</div>
 		</div>

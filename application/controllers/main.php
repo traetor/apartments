@@ -7,8 +7,10 @@ class main extends CI_Controller {
     $this->load->library('javascript');
     $this->load->helper('url');
   }
-  function index($l='home_page', $category='1', $page=0){
-    $data['aparts'] = $this->main_model->get_aparts();
+  function index($page=0){
+    $data['total_rows'] = $this->main_model->totalRows();
+    $data['items_per_page'] = $this->main_model->itemsPerPage;
+    $data['aparts'] = $this->main_model->get_aparts($page);
     $data['header'] = 'bookmark/header';
     $data['navbar'] = 'bookmark/navbar';
     $data['availability'] = 'bookmark/availability';

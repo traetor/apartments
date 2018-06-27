@@ -9,15 +9,15 @@
 	    <!-- Wrapper for slides -->
 	    <div class="carousel-inner">
 	        <div class="item active">
-	            <div class="image" style="background-image: url('assets/img/background.jpg')"></div>
+	            <div class="image" style="background-image: url(<?php echo base_url(); ?>assets/img/background.jpg)"></div>
 	            <div class="carousel-caption"><p class="carousel-text">ul. Floriańska, Kraków</p></div>
 	        </div>
 	        <div class="item">
-	            <div class="image" style="background-image: url('assets/img/background2.jpg')"></div>
+	            <div class="image" style="background-image: url(<?php echo base_url(); ?>assets/img/background2.jpg)"></div>
 	            <div class="carousel-caption"><p class="carousel-text">ul. Długa, Kraków</p></div>
 	        </div>
 	        <div class="item">
-	            <div class="image" style="background-image: url('assets/img/background3.jpg')"></div>
+	            <div class="image" style="background-image: url(<?php echo base_url(); ?>assets/img/background3.jpg)"></div>
 	            <div class="carousel-caption"><p class="carousel-text">ul. Wielicka, Kraków</p></div>
 	        </div>
 	    </div>

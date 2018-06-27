@@ -30,6 +30,9 @@
     <?php 
       echo $this->view($contact);
     ?>
+    <div class="copyright">
+      &copy; 2018 <strong>Jasiek Król</strong>
+    </div>
   </section>
   <script src="<?php echo base_url(); ?>assets/js/jquery-3.3.1.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
