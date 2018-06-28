@@ -6,7 +6,9 @@
 							<div class="notIE">
 								<span class="fancyArrow"></span>
 								<select>
-									<option value="kondygnacja">kondygnacja</option>
+									<option value="" disabled selected>kondygnacja</option>
+									<option value="parter">parter</option>
+									<option value="piętro">piętro</option>
 								</select>
 							</div>
 						</div>
@@ -25,7 +27,10 @@
 							<div class="notIE">
 								<span class="fancyArrow"></span>
 								<select>
-									<option value="status">status</option>
+									<option value="" disabled selected>status</option>
+									<option value="wolny">wolny</option>
+									<option value="rezerwacja">rezerwacja</option>
+									<option value="sprzedany">sprzedany</option>
 								</select>
 							</div>
 						</div>

@@ -199,7 +199,7 @@ select, option
 	bottom: 2px;
 }
 
-.btn-less
+.btn-form
 {
 	display: none;
 	background-color: #00a671;
@@ -860,6 +860,14 @@ select, option
 	.btn-submit
 	{
 		display: inline-block;
+	}
+
+	.btn-form
+	{
+		display: inline-block;
+		margin-bottom: 30px;
+		margin-top: 20px;
+		border: none;
 	}
 }
 

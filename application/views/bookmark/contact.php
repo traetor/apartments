@@ -39,7 +39,7 @@
 	              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Pole nie może być puste" placeholder="treść wiadomośći"></textarea>
 	              <div class="validation"></div>
 	           	</div>
-	            <div class="form-groups col-xs-6" style="padding-left: 0;]">
+	            <div class="form-groups col-xs-6" style="padding-left: 0;">
                 <input type="text" class="form-control" value="AXK65GH" />
                 <div class="validation"></div>
 	              </div>
@@ -49,8 +49,9 @@
 	            </div>
 	            <div class="text-center"><button type="submit">Wysłanie formularza</button></div>
 						</form>
-						<input type="button" name="less" value="mniej" class="btn-less">
 					</div>
+					<input type="button" name="less" value="pokaż formularz" class="btn-form btn-show">
+					<input type="button" name="less" value="mniej" class="btn-form btn-less">
 				</div>
 			</div>
 		</div>
